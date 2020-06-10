@@ -1,1 +1,1 @@
-document.getElementById("Id").style.color = "#a1b2c3"
+document.getElementById("Id").style.color = "#a1b2c3";
