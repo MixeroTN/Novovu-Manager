@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Novovu Manager</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Modal Structure */
+
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img class="logo-icon" src="images/novovu.png" />Novovu
+        Manager
+        <span class="version">(1.0.0)</span>
+      </h1>
+    </div>
+    <div class="modal-content">
+      <p>Created by MixeroTN#9156</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://novovu.com" target="_blank">
+            <i class="fa fa-sign-in" style="color:rgb(255, 35, 35) "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://blog.novovu.com/" target="_blank">
+            <i class="fa fa-newspaper-o" style="color:rgb(255, 35, 35) "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://novovu.com" target="_blank">
+            <i class="fa fa-code" style="color:rgb(255, 35, 35) "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://discordapp.com/invite/6DEwJvb" target="_blank">
+            <i class="fa fa-commenting-o" style="color:rgb(255, 35, 35) "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://novovu.com" target="_blank">
+            <i class="fa fa-download" style="color:rgb(255, 35, 35) "></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-content">
+      <p style="font-family:Impact;font-size:160%">Options:</p>
+    </div>
+    <div class="modal-content">
+      <p>Website theme:</p>
+      <button style="margin-right: 40px;" onclick="">Default</button><button style="margin-right: 5px;" onclick="" >Light</button><button style="margin-right: 15px;" onclick="">Dark</button><button style="margin-right: 0px;" onclick="">Beta-Release</button>
+      
+      <p id="1"></p>
+    </div>
+
+
+  </body>
+</html>
